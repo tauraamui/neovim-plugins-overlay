@@ -38,11 +38,11 @@
     };
     # tree sitter
     nvim-treesitter = {
-      url = "github:nvim-tree-sitter/nvim-treesitter";
+      url = "github:nvim-treesitter/nvim-treesitter";
       flake = false;
     };
     playground = {
-      url = "github:nvim-tree-sitter/playground";
+      url = "github:nvim-treesitter/playground";
       flake = false;
     };
   };
