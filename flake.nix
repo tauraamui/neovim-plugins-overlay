@@ -18,6 +18,33 @@
       url = "github:nvim-telescope/telescope-file-browser.nvim";
       flake = false;
     };
+    # diagnostic manager stuff
+    trouble = {
+      url = "github:folke/trouble.nvim";
+      flake = false;
+    };
+    nvim-web-devicons = {
+      url = "github:nvim-tree/nvim-web-devicons";
+      flake = false;
+    };
+    # system shell instance navigation
+    vim-tmux-navigator = {
+      url = "github:christoomey/vim-tmux-navigator";
+      flake = false;
+    };
+    smart-splits = { # alternative to above tmux navigator for certain systems
+      url = "github:mrjones2014/smart-splits.nvim";
+      flake = false;
+    };
+    # tree sitter
+    nvim-treesitter = {
+      url = "github:nvim-tree-sitter/nvim-treesitter";
+      flake = false;
+    };
+    playground = {
+      url = "github:nvim-tree-sitter/playground";
+      flake = false;
+    };
   };
   outputs = { self, nixpkgs, ... }@inputs:
     let
