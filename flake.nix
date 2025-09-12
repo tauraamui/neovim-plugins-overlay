@@ -1,7 +1,7 @@
 {
   description = "Neovim plugin overlay";
   inputs = {
-    nixpkgs.url = "github:NixOS/nixpkgs/nixos-24.11";
+    nixpkgs.url = "github:NixOS/nixpkgs/nixos-25.05";
     nvim-lspconfig = {
       url = "github:neovim/nvim-lspconfig";
       flake = false;
@@ -10,76 +10,12 @@
       url = "github:nvim-lua/plenary.nvim";
       flake = false;
     };
-    oceanic-next = {
-      url = "github:mhartington/oceanic-next";
-      flake = false;
-    };
     telescope = {
       url = "github:nvim-telescope/telescope.nvim";
       flake = false;
     };
     telescope-file-browser = {
       url = "github:nvim-telescope/telescope-file-browser.nvim";
-      flake = false;
-    };
-    mini = {
-      url = "github:echasnovski/mini.nvim";
-      flake = false;
-    };
-    indent-blankline = {
-      url = "github:lukas-reineke/indent-blankline.nvim";
-      flake = false;
-    };
-    devicons = {
-      url = "github:nvim-tree/nvim-web-devicons";
-      flake = false;
-    };
-    gitsigns = {
-      url = "github:lewis6991/gitsigns.nvim";
-      flake = false;
-    };
-    dressing = {
-      url = "github:stevearc/dressing.nvim";
-      flake = false;
-    };
-    oil = {
-      url = "github:stevearc/oil.nvim";
-      flake = false;
-    };
-    schemastore = {
-      url = "github:b0o/SchemaStore.nvim";
-      flake = false;
-    };
-    nvim-cmp = {
-      url = "github:hrsh7th/nvim-cmp";
-      flake = false;
-    };
-    cmp-buffer = {
-      url = "github:hrsh7th/cmp-buffer";
-      flake = false;
-    };
-    cmp-nvim-lsp = {
-      url = "github:hrsh7th/cmp-nvim-lsp";
-      flake = false;
-    };
-    cmp-path = {
-      url = "github:hrsh7th/cmp-path";
-      flake = false;
-    };
-    lspkind-nvim = {
-      url = "github:onsails/lspkind-nvim";
-      flake = false;
-    };
-    copilot-lua = {
-      url = "github:zbirenbaum/copilot.lua";
-      flake = false;
-    };
-    copilot-cmp = {
-      url = "github:zbirenbaum/copilot-cmp";
-      flake = false;
-    };
-    goose = {
-      url = "github:azorng/goose.nvim";
       flake = false;
     };
   };
@@ -117,7 +53,7 @@
           ({ pkgs, ... }: {
             boot.isContainer = true;
             nixpkgs.overlays = [ overlay ];
-            system.stateVersion = "22.11";
+            system.stateVersion = "25.05";
             programs.neovim = {
               enable = true;
               configure.packages.myVimPackage = {
