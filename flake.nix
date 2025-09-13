@@ -2,10 +2,6 @@
   description = "Neovim plugin overlay";
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-25.05";
-    catppuccin = {
-      url = "github:catppuccin/nvim";
-      flake = false;
-    };
     startup = {
       url = "github:startup-nvim/startup.nvim";
       flake = false;
