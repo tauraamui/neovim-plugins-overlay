@@ -119,6 +119,7 @@
     lsp_lines = {
       url = "git.sr.ht:~whynothugo/lsp_lines.nvim";
       flake = false;
+      type = "lua";
       config = ''require('lsp_lines').setup()'';
     };
     # -----
