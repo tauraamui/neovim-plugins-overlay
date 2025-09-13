@@ -80,7 +80,7 @@
       url = "github:andythigpen/nvim-coverage";
       flake = false;
       type = "lua";
-      config = ''require('coverage').setup()''
+      config = ''require('coverage').setup()'';
     };
     neotest = {
       url = "github:nvim-neotest/neotest";
