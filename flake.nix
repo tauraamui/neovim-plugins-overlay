@@ -2,29 +2,19 @@
   description = "Neovim plugin overlay";
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-25.05";
-    nvim-lspconfig = {
-      url = "github:neovim/nvim-lspconfig";
+    catppuccin = {
+      url = "github:catppuccin/nvim";
       flake = false;
     };
-    plenary = {
-      url = "github:nvim-lua/plenary.nvim";
+    startup = {
+      url = "github:startup-nvim/startup.nvim";
       flake = false;
-    };
-    telescope = {
-      url = "github:nvim-telescope/telescope.nvim";
-      flake = false;
-    };
-    telescope-file-browser = {
-      url = "github:nvim-telescope/telescope-file-browser.nvim";
-      flake = false;
+      type = "lua";
+      config = ''require('startup').setup(require('startup.themes.dew'))'';
     };
     # diagnostic manager stuff
     trouble = {
       url = "github:folke/trouble.nvim";
-      flake = false;
-    };
-    nvim-web-devicons = {
-      url = "github:nvim-tree/nvim-web-devicons";
       flake = false;
     };
     # system shell instance navigation
@@ -43,6 +33,113 @@
     };
     playground = {
       url = "github:nvim-treesitter/playground";
+      flake = false;
+    };
+    # markdown preview
+    glow = {
+      url = "github:ellisonleao/glow.nvim";
+      flake = false;
+    };
+    symbols-outline = {
+      url = "github:simrat39/symbols-outline.nvim";
+      flake = false;
+    };
+    # git line blame visualisation
+    gitsigns = {
+      url = "github:lewis6991/gitsigns.nvim";
+      flake = false;
+      type = "lua";
+      config = ''require('gitsigns').setup()'';
+    };
+    # terminal toggle
+    toggleterm = {
+      url = "github:akinsho/toggleterm.nvim";
+      flake = false;
+      type = "lua";
+      config = "require('toggleterm').setup()";
+    };
+    # file tree visualisation
+    nvim-tree = {
+      url = "github:nvim-tree/nvim-tree.lua";
+      flake = false;
+    };
+    # indent guide lines
+    indent-blankline = {
+      url = "github:lukas-reineke/indent-blankline.nvim";
+      flake = false;
+    };
+    # autopair brackets
+    nvim-autopairs = {
+      url = "github:windwp/nvim-autopairs";
+      flake = false;
+      type = "lua";
+      config = ''require('nvim-autopairs').setup()'';
+    };
+    # go coverage
+    nvim-coverage = {
+      url = "github:andythigpen/nvim-coverage";
+      flake = false;
+      type = "lua";
+      config = ''require('coverage').setup()''
+    };
+    neotest = {
+      url = "github:nvim-neotest/neotest";
+      flake = false;
+      type = "lua";
+      config = ''
+        function()
+          -- get neotest namespace (api call creates or returns namespace)
+          local neotest_ns = vim.api.nvim_create_namespace("neotest")
+          vim.diagnostic.config({
+            virtual_text = {
+              format = function(diagnostic)
+                local message =
+                  diagnostic.message:gsub("\n", " "):gsub("\t", " "):gsub("%s+", " "):gsub("^%s+", "")
+                return message
+              end,
+            },
+          }, neotest_ns)
+          require("neotest").setup({
+            -- your neotest config here
+            adapters = {
+              require("neotest-go"),
+            },
+          })
+        end
+      '';
+    };
+    FixCursorHold = {
+      url = "github:antoinemadec/FixCursorHold.nvim";
+      flake = false;
+    };
+    neotest-go = {
+      url = "github:nvim-neotest/neotest-go";
+      flake = false;
+    };
+    lsp_lines = {
+      url = "git.sr.ht:~whynothugo/lsp_lines.nvim";
+      flake = false;
+      config = ''require('lsp_lines').setup()'';
+    };
+    # -----
+    nvim-lspconfig = {
+      url = "github:neovim/nvim-lspconfig";
+      flake = false;
+    };
+    plenary = {
+      url = "github:nvim-lua/plenary.nvim";
+      flake = false;
+    };
+    telescope = {
+      url = "github:nvim-telescope/telescope.nvim";
+      flake = false;
+    };
+    telescope-file-browser = {
+      url = "github:nvim-telescope/telescope-file-browser.nvim";
+      flake = false;
+    };
+    nvim-web-devicons = {
+      url = "github:nvim-tree/nvim-web-devicons";
       flake = false;
     };
   };
