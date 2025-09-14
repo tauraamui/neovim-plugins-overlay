@@ -104,6 +104,10 @@
         end
       '';
     };
+    FixCursorHold = {
+      url = "github:antoinemadec/FixCursorHold.nvim";
+      flake = false;
+    };
     neotest-go = {
       url = "github:nvim-neotest/neotest-go";
       flake = false;
