@@ -9,8 +9,6 @@
     startup = {
       url = "github:startup-nvim/startup.nvim";
       flake = false;
-      type = "lua";
-      config = ''require('startup').setup(require('startup.themes.dew'))'';
     };
     # diagnostic manager stuff
     trouble = {
@@ -48,15 +46,11 @@
     gitsigns = {
       url = "github:lewis6991/gitsigns.nvim";
       flake = false;
-      type = "lua";
-      config = ''require('gitsigns').setup()'';
     };
     # terminal toggle
     toggleterm = {
       url = "github:akinsho/toggleterm.nvim";
       flake = false;
-      type = "lua";
-      config = "require('toggleterm').setup()";
     };
     # file tree visualisation
     nvim-tree = {
@@ -72,41 +66,15 @@
     nvim-autopairs = {
       url = "github:windwp/nvim-autopairs";
       flake = false;
-      type = "lua";
-      config = ''require('nvim-autopairs').setup()'';
     };
     # go coverage
     nvim-coverage = {
       url = "github:andythigpen/nvim-coverage";
       flake = false;
-      type = "lua";
-      config = ''require('coverage').setup()'';
     };
     neotest = {
       url = "github:nvim-neotest/neotest";
       flake = false;
-      type = "lua";
-      config = ''
-        function()
-          -- get neotest namespace (api call creates or returns namespace)
-          local neotest_ns = vim.api.nvim_create_namespace("neotest")
-          vim.diagnostic.config({
-            virtual_text = {
-              format = function(diagnostic)
-                local message =
-                  diagnostic.message:gsub("\n", " "):gsub("\t", " "):gsub("%s+", " "):gsub("^%s+", "")
-                return message
-              end,
-            },
-          }, neotest_ns)
-          require("neotest").setup({
-            -- your neotest config here
-            adapters = {
-              require("neotest-go"),
-            },
-          })
-        end
-      '';
     };
     FixCursorHold = {
       url = "github:antoinemadec/FixCursorHold.nvim";
@@ -117,10 +85,8 @@
       flake = false;
     };
     lsp_lines = {
-      url = "git.sr.ht:~whynothugo/lsp_lines.nvim";
+      url = "git+https://git.sr.ht:~whynothugo/lsp_lines.nvim";
       flake = false;
-      type = "lua";
-      config = ''require('lsp_lines').setup()'';
     };
     # -----
     nvim-lspconfig = {
