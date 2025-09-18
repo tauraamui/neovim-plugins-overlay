@@ -85,7 +85,7 @@
       flake = false;
     };
     lsp_lines = {
-      url = "git+https://git.sr.ht:~whynothugo/lsp_lines.nvim";
+      url = "git+https://git.sr.ht/~whynothugo/lsp_lines.nvim";
       flake = false;
     };
     # -----
