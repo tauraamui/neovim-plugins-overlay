@@ -76,6 +76,10 @@
       url = "github:andythigpen/nvim-coverage";
       flake = false;
     };
+    nvim-goc = {
+      url = "github:rafaelsq/nvim-goc.lua";
+      flake = false;
+    };
     neotest = {
       url = "github:nvim-neotest/neotest";
       flake = false;
