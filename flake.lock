@@ -19,11 +19,11 @@
     "catppuccin-theme": {
       "flake": false,
       "locked": {
-        "lastModified": 1759668198,
-        "narHash": "sha256-WmWGygttH78KajAaIvlwRW47G7UGJuPV0YIfEZkse6I=",
+        "lastModified": 1759919060,
+        "narHash": "sha256-yJIVQSgRSD0PYOhYadjfVVsPWB40A0I1Kyd3i/3gaj0=",
         "owner": "catppuccin",
         "repo": "nvim",
-        "rev": "e79d09fa347b367e0e7f693bfe87dba932a8cbd1",
+        "rev": "af58927c55c9f3272c940ff02b3cee94a1249f26",
         "type": "github"
       },
       "original": {
@@ -434,11 +434,11 @@
     "trouble": {
       "flake": false,
       "locked": {
-        "lastModified": 1758274066,
-        "narHash": "sha256-yxcrQs8VCd+ABCnQTcXhmIVbM+Tqdy0ZgzLvbJNysTk=",
+        "lastModified": 1759952083,
+        "narHash": "sha256-sYlKFjJgcEO/L5himRYDHtH6gYqHOsrb1ZvHSuPojew=",
         "owner": "folke",
         "repo": "trouble.nvim",
-        "rev": "f176232e7759c4f8abd923c21e3e5a5c76cd6837",
+        "rev": "c098362fe603d3922095e7db595961e020bdf2d0",
         "type": "github"
       },
       "original": {
