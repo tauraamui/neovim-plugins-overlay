@@ -338,11 +338,11 @@
     "smart-splits": {
       "flake": false,
       "locked": {
-        "lastModified": 1759757407,
-        "narHash": "sha256-u2q0fiO4EQ1a5RL/CDOYOBYEtvnQS/fn9djflrI5jxc=",
+        "lastModified": 1760014865,
+        "narHash": "sha256-8ftinH+99Z7ff+0IXYF4v0w5asSQMCUwtDtL+Gk85sI=",
         "owner": "mrjones2014",
         "repo": "smart-splits.nvim",
-        "rev": "9aaa1426da703a0f43f6e535b57f04b6857f8166",
+        "rev": "acbfa16fb43f38d4a80ddf7b6485b3859502ac84",
         "type": "github"
       },
       "original": {
