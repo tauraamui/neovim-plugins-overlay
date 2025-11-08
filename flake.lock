@@ -146,11 +146,11 @@
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1762233356,
-        "narHash": "sha256-cGS3lLTYusbEP/IJIWGgnkzIl+FA5xDvtiHyjalGr4k=",
+        "lastModified": 1762498405,
+        "narHash": "sha256-Zg/SCgCaAioc0/SVZQJxuECGPJy+OAeBcGeA5okdYDc=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "ca534a76c4afb2bdc07b681dbc11b453bab21af8",
+        "rev": "6faeb062ee4cf4f105989d490831713cc5a43ee1",
         "type": "github"
       },
       "original": {
@@ -338,11 +338,11 @@
     "smart-splits": {
       "flake": false,
       "locked": {
-        "lastModified": 1761929118,
-        "narHash": "sha256-73F0iIPpG7RC0IT06Qv3ufcO6EfkEmYEXXk409S9tsw=",
+        "lastModified": 1762552577,
+        "narHash": "sha256-ybYcPGdP1N5tKVxTck8eXu19nDXb8ZxLRYLuHNjey4Y=",
         "owner": "mrjones2014",
         "repo": "smart-splits.nvim",
-        "rev": "1611946e397a8b42807a9ad527088bf7ebc9ce33",
+        "rev": "601cc6422b2b94af2e88d14358b81cf7dfb5db5f",
         "type": "github"
       },
       "original": {
@@ -386,11 +386,11 @@
     "telescope": {
       "flake": false,
       "locked": {
-        "lastModified": 1762443798,
-        "narHash": "sha256-ICIFvXyzSaua0jixPfQWZqyakt0kOvXKqjrbFi0MzaU=",
+        "lastModified": 1762525038,
+        "narHash": "sha256-9u2S9Tn1ZhB6JTm8k34FcFV4ex4FL4eAn5InGrWPgD0=",
         "owner": "nvim-telescope",
         "repo": "telescope.nvim",
-        "rev": "c41b36d646c9d78fae9f1d64e0e86cdeeeb8a066",
+        "rev": "0294ae3eafe662c438addb8692d9c98ef73a983e",
         "type": "github"
       },
       "original": {
