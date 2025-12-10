@@ -163,11 +163,11 @@
     "nvim-autopairs": {
       "flake": false,
       "locked": {
-        "lastModified": 1760305946,
-        "narHash": "sha256-cRIg1qO3WMxzcDQti0GEJl77KnlRCqyBN+g76PviWt0=",
+        "lastModified": 1765238816,
+        "narHash": "sha256-AHQp8586DmM7ukhSYhMF1jxkQsiqG6SOpHXZHrvZDL0=",
         "owner": "windwp",
         "repo": "nvim-autopairs",
-        "rev": "7a2c97cccd60abc559344042fefb1d5a85b3e33b",
+        "rev": "d9e44e54384e5b0f3536339c65484f2e41b528e3",
         "type": "github"
       },
       "original": {
@@ -227,11 +227,11 @@
     "nvim-tree": {
       "flake": false,
       "locked": {
-        "lastModified": 1764713359,
-        "narHash": "sha256-dSaO5esPKj1y4vNyLb3AK9egmFJsmWxkGOT+etJsbRA=",
+        "lastModified": 1765248273,
+        "narHash": "sha256-ZiCXWKogMIJdt8CNCSHsTJdZFCL+Qw2CV9uoUgu8sSc=",
         "owner": "nvim-tree",
         "repo": "nvim-tree.lua",
-        "rev": "59088b96a32ea47caf4976e164dbd88b86447fb7",
+        "rev": "eb33612bff2fb31f54946fb5dcadc89e905e81ec",
         "type": "github"
       },
       "original": {
