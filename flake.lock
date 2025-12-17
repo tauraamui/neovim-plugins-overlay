@@ -211,11 +211,11 @@
     "nvim-lspconfig": {
       "flake": false,
       "locked": {
-        "lastModified": 1765813816,
-        "narHash": "sha256-Ktgphl9WlgUa437xdp2cew6N4uXOqZtXiNa74y8EwSY=",
+        "lastModified": 1765922293,
+        "narHash": "sha256-Zur3rAPIjdFDS3uo9GFI+NOQ5LHUuB0bgApLdtU3NMo=",
         "owner": "neovim",
         "repo": "nvim-lspconfig",
-        "rev": "ad95655ec5d13ff7c728d731eb9fd39f34395a03",
+        "rev": "0d7d33e40f0c27f57cb29654ed78cab17d705e68",
         "type": "github"
       },
       "original": {
@@ -386,11 +386,11 @@
     "telescope": {
       "flake": false,
       "locked": {
-        "lastModified": 1764418954,
-        "narHash": "sha256-e6XSJRv4KB0z+nzGWmlV/YZNwWsyrrpQTloePRKWmw4=",
+        "lastModified": 1765877657,
+        "narHash": "sha256-PUqDSm6My5vNoPNKE9KQLfASnx3tlUy+EsXn1wdbSO0=",
         "owner": "nvim-telescope",
         "repo": "telescope.nvim",
-        "rev": "e69b434b968a33815e2f02a5c7bd7b8dd4c7d4b2",
+        "rev": "3d757e586ff0bfc85bdb7b46c9d3d932147a0cde",
         "type": "github"
       },
       "original": {
