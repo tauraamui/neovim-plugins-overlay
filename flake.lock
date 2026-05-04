@@ -131,11 +131,11 @@
     "nightfox-theme": {
       "flake": false,
       "locked": {
-        "lastModified": 1739121671,
-        "narHash": "sha256-HoZEwncrUnypWxyB+XR0UQDv+tNu1/NbvimxYGb7qu8=",
+        "lastModified": 1777822298,
+        "narHash": "sha256-xSnMYGilRjNHh1G1eOghl8Dr93HsCe3WHHAkchCyW+E=",
         "owner": "EdenEast",
         "repo": "nightfox.nvim",
-        "rev": "ba47d4b4c5ec308718641ba7402c143836f35aa9",
+        "rev": "26b61b1f856ec37cae3cb64f5690adb955f246a1",
         "type": "github"
       },
       "original": {
