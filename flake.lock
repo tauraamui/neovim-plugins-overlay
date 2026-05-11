@@ -354,11 +354,11 @@
     "startup": {
       "flake": false,
       "locked": {
-        "lastModified": 1777963912,
-        "narHash": "sha256-TAdFpqUXo+VEMSvROgHOv7JfyaQvKhCNZmpC6Yj0cZk=",
+        "lastModified": 1778443327,
+        "narHash": "sha256-vwLvzQiQctkFitOPcg/bjKKGInU5AIfrpjI/e26ZBSA=",
         "owner": "startup-nvim",
         "repo": "startup.nvim",
-        "rev": "8d54182fdf02081d698393baf67179c25d630f41",
+        "rev": "cd5fe95f61fdf6ef7db3732be79126032ab1dd3e",
         "type": "github"
       },
       "original": {
