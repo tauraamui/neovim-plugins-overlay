@@ -19,11 +19,11 @@
     "catppuccin-theme": {
       "flake": false,
       "locked": {
-        "lastModified": 1779535400,
-        "narHash": "sha256-grv/wtHbeTWg9ofn3f7p6L3fpkk+WtmKkoxpBaxZXZs=",
+        "lastModified": 1780066825,
+        "narHash": "sha256-UUUoJpIYHJOe93w9+geBNN5f+6IkJFwjZWkGTr2IaJI=",
         "owner": "catppuccin",
         "repo": "nvim",
-        "rev": "8edd468af4d63212b84d69b2ddb5ffc9023ef5eb",
+        "rev": "0303a7208dba448c459767486a38a6ec05c4216b",
         "type": "github"
       },
       "original": {
@@ -338,11 +338,11 @@
     "smart-splits": {
       "flake": false,
       "locked": {
-        "lastModified": 1779478846,
-        "narHash": "sha256-GNcTzTqwHaiDbMW9tHUYDb0AQsBc3eA608cthW2vN8U=",
+        "lastModified": 1780075481,
+        "narHash": "sha256-1LnZdJazx5gI1C7rPdDL5PMKf5Z0fTUpRD7T6tHdjjs=",
         "owner": "mrjones2014",
         "repo": "smart-splits.nvim",
-        "rev": "b24335c3186b6c35522fa108af63646a2f70b3b6",
+        "rev": "1865e6826b1cd90098f198acb0f5b744a7b40c22",
         "type": "github"
       },
       "original": {
