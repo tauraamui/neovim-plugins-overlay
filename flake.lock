@@ -19,11 +19,11 @@
     "catppuccin-theme": {
       "flake": false,
       "locked": {
-        "lastModified": 1784465731,
-        "narHash": "sha256-jhRocC3HqxN9+9cDiCPjs+04YUoYhlqVVYteVUNN4Q0=",
+        "lastModified": 1784738854,
+        "narHash": "sha256-YmoCuuRLNVu0VVMSabsbcJ4w73NwdCvqgz4gY45Xllw=",
         "owner": "catppuccin",
         "repo": "nvim",
-        "rev": "058e83dc009e4dd62f30807054de9cc849699e27",
+        "rev": "c7c692a0ad3080710893abbae100171819a3e4be",
         "type": "github"
       },
       "original": {
@@ -259,11 +259,11 @@
     "nvim-web-devicons": {
       "flake": false,
       "locked": {
-        "lastModified": 1784017338,
-        "narHash": "sha256-mPCzq1F4sxrsXjWfLYdvKQmw7oXMs3h8h19qfj5ey1E=",
+        "lastModified": 1784758315,
+        "narHash": "sha256-/NTrUcytMahe5wZUjVO9a4D9vooKtAQu/cKgOugeZNk=",
         "owner": "nvim-tree",
         "repo": "nvim-web-devicons",
-        "rev": "0ca28b61a04fe7426cefbdd52c2647ef0e335b5f",
+        "rev": "2ae6958df7ced50baac5035cec0c15799eedfbf7",
         "type": "github"
       },
       "original": {
