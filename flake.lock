@@ -227,11 +227,11 @@
     "nvim-tree": {
       "flake": false,
       "locked": {
-        "lastModified": 1794027398,
-        "narHash": "sha256-fWV1R2bN8MMK/ZGEfcqZJHt49L4c0zzd3VgzojDHq1M=",
+        "lastModified": 1794349243,
+        "narHash": "sha256-Liv+Il67TyGeTZZ1NkEXqH0T/MDg9Ez0j73LL2PT9vY=",
         "owner": "nvim-tree",
         "repo": "nvim-tree.lua",
-        "rev": "7e1da84aaffb413e1fa47b3895e5caa12501142d",
+        "rev": "5cc8d425c2bf3c09041a2db3cfff6197e2dce34d",
         "type": "github"
       },
       "original": {
